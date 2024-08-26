@@ -106,16 +106,32 @@
 <section id="contact">
   <h2>Contact me</h2>
   <form>
-    Name: <input type="text"/>
-    Gmail:<input type="text"/>
+    <dev><label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+    </dev>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required/>
+      </div>
+      <dev>
+        <label for="email">Meassege:</label>
+        <textarea name="meassege" id="meassege" cols="20" rows="3"></textarea>
+      </dev>
+      <br>
+      <dev>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+      </dev>
+       
+      
   </form>
 </section>
 
 <!--section:footer-->
 <footer>
-  <p>Copyright reserved by Siam 2024</p>
-  <a href="tel:01328603018">Call me</a><br>
-  <a href="mohotazimbosunia@gmail.com">Email me</a><br>
+  <p>Copyright reserved by &copySiam 2024</p>
+  <a href="tel:01328603018">📞Call me</a><br>
+  <a href="mohotazimbosunia@gmail.com">✉Email me</a><br>
  
 </footer>
 </body>
